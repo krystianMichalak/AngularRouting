@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ThirdComponent } from './third/third.component';
 import { ForthComponent } from './forth/forth.component';
+import { NgxExtendedPdfViewerModule } from 'ngx-extended-pdf-viewer';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { ForthComponent } from './forth/forth.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgxExtendedPdfViewerModule
   ],
   providers: [],
   bootstrap: [AppComponent]
